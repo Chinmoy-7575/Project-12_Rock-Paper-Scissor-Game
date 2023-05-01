@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<p class="header">Rock Paper Scissors</p>
+		<div id="scoreboard">
+			<h2>Score</h2>
+			<p>You: <span id="playerScore">0</span></p>
+			<p>Computer: <span id="computerScore">0</span></p>
+		</div>
+		<div id="game">
+			<div class="option" id="rock">
+				<img src="image/stone.png">
+			</div>
+			<div class="option" id="paper">
+				<img src="image/paper.png">
+			</div>
+			<div class="option" id="scissors">
+				<img src="image/scissors.png">
+			</div>
+		</div>
+		<div id="result"></div>
+		<button id="reset">Reset Game</button>
+
+		<audio id="winSound">
+				<source src="win.wav" type="audio/mpeg">
+		</audio>
+		<audio id="tieSound">
+				<source src="tie.wav" type="audio/mpeg">
+		</audio>
+
+		<script src="script.js"></script>
+	</body>
+</html>

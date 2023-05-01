@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	background-color: #1fdf95;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	margin-top: 30px;
+	color: whitesmoke;
+	font-size: 50px;
+	font-weight: 1000;
+}
+
+#scoreboard {
+	margin-top: 30px;
+}
+
+#scoreboard p {
+	color: whitesmoke;
+}
+
+#scoreboard h2 {
+	font-size: 24px;
+	color: whitesmoke;
+	margin: 5px;
+}
+
+#scoreboard p {
+	margin: 10px 0;
+}
+
+#scoreboard span {
+	font-size: 20px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+#game {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.option {
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+.option img {
+	width: 150px;
+	height: 150px;
+}
+
+#result {
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+#reset {
+	margin-top: 30px;
+	padding: 10px 20px;
+	background-color: #333333;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#reset:hover {
+	background-color: #555555;
+}
+
+/* this part is not working */
+@media only screen and (max-width: 500px) {
+    .header {
+		margin-top: 100px;
+		font-size: 50px;
+		font-weight: 1000;
+	}
+	.option img {
+		width: 250px;
+		height: 250px;
+	}
+    
+    
+}
